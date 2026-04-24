@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DakshLakshayTanish</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">DLT<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#video">Watch</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#game">Game</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb orb1"></div>
+      <div class="hero-orb orb2"></div>
+      <div class="hero-orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ Welcome to our world</div>
+      <h1 class="hero-title">
+        Building things<br />
+        <span class="gradient-text">that matter.</span>
+      </h1>
+      <p class="hero-sub">
+        We are Daksh, Lakshay &amp; Tanish — a team of creators, developers,
+        and problem-solvers turning ideas into reality.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn-primary">Explore ↓</a>
+        <a href="#video" class="btn-ghost">Watch Video</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">scroll to explore</div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">Who we are</div>
+      <h2 class="section-title">Three minds,<br /><span class="gradient-text">one vision.</span></h2>
+      <p class="section-sub">
+        We met in class and realised we shared the same obsession — building things from scratch.
+        From games to websites to experiments, we ship fast and learn faster.
+      </p>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <h3>Ship Fast</h3>
+          <p>We believe in getting things out the door. Iterate, improve, repeat.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎮</div>
+          <h3>Build Fun</h3>
+          <p>Every project should be something we'd actually want to use ourselves.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Learn Always</h3>
+          <p>We pick up new tech on the fly. Curiosity is our biggest asset.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VIDEO ── -->
+  <section class="section section-dark" id="video">
+    <div class="container">
+      <div class="section-label">Featured</div>
+      <h2 class="section-title">Watch &amp; <span class="gradient-text">Explore</span></h2>
+      <p class="section-sub">
+        A glimpse into what inspires us. Hit play and enjoy.
+      </p>
+      <div class="video-wrapper">
+        <iframe
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+          title="Featured Video"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURES ── -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-label">What we do</div>
+      <h2 class="section-title">Our <span class="gradient-text">Expertise</span></h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-num">01</div>
+          <div class="feature-body">
+            <h3>Web Development</h3>
+            <p>Clean, fast, responsive websites built with modern tech. No bloat, just results.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-num">02</div>
+          <div class="feature-body">
+            <h3>Game Development</h3>
+            <p>Browser-based games with smooth gameplay, creative mechanics, and great visuals.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-num">03</div>
+          <div class="feature-body">
+            <h3>UI / UX Design</h3>
+            <p>Interfaces that feel intuitive. We care about how things look and how they work.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-num">04</div>
+          <div class="feature-body">
+            <h3>Creative Projects</h3>
+            <p>Experiments, demos, and side projects that push what's possible in the browser.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PLAY GAME ── -->
+  <section class="section game-section" id="game">
+    <div class="container">
+      <div class="section-label">Try it out</div>
+      <h2 class="section-title">Play <span class="gradient-text">AstroWar</span></h2>
+      <p class="section-sub">
+        Our browser-based space game — dodge asteroids, collect weapons, survive as long as you can.
+        Works even without internet once you've loaded this page once.
+      </p>
+      <div class="game-preview">
+        <div class="game-preview-inner">
+          <div class="game-preview-icon">🚀</div>
+          <h3>AstroWar</h3>
+          <p>Head-tracked or keyboard controlled. 4 weapon types. Endless waves.</p>
+          <div class="game-badges">
+            <span class="gbadge">🎮 Browser Game</span>
+            <span class="gbadge">📷 Head Tracking</span>
+            <span class="gbadge">⚡ Works Offline</span>
+          </div>
+          <a href="/game/" target="_blank" class="btn-primary game-play-btn">▶ Play Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TEAM ── -->
+  <section class="section section-dark" id="team">
+    <div class="container">
+      <div class="section-label">The crew</div>
+      <h2 class="section-title">Meet the <span class="gradient-text">Team</span></h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">D</div>
+          <h3>Daksh</h3>
+          <p class="team-role">Developer &amp; Strategist</p>
+          <p class="team-bio">Loves clean code and even cleaner UI. The one who makes sure things actually work.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">L</div>
+          <h3>Lakshay</h3>
+          <p class="team-role">Designer &amp; Builder</p>
+          <p class="team-bio">Has an eye for detail. If it looks good, Lakshay probably had something to do with it.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar">T</div>
+          <h3>Tanish</h3>
+          <p class="team-role">Creative &amp; Innovator</p>
+          <p class="team-bio">The ideas guy. Always thinking three steps ahead and pushing the team to do more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <div class="section-label">Say hello</div>
+      <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+      <p class="section-sub">Have a project in mind? Want to collaborate? We'd love to hear from you.</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Send Message →</button>
+      </form>
+      <div class="contact-toast" id="toast">✓ Message sent! We'll get back to you soon.</div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo">DLT<span>.</span></span>
+      <p>© 2025 DakshLakshayTanish. All rights reserved.</p>
+      <p class="footer-domain">dakshlakshaytanish.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script>
+</body>
+</html>
